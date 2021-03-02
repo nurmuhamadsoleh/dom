@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+    <title>Javascript DOM</title>
+</head>
+<body>
+    <section class="home">
+        <h1 id="ubah">Ubah saya</h1>
+            <div class="form_input">
+                <label for="submit_input">Masukan Pesan Kamu :</label>
+                <input type="text" id="submit_input" placeholder="Masukan Nama Anda" autofocus onchange="ubahText()" />
+            </div>
+            <button class="btn_reset" type="reset" onclick="resetMsg()">Set Ulang</button>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
